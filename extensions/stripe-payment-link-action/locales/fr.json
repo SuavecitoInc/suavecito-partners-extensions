@@ -1,0 +1,4 @@
+{
+  "name": "stripe-payment-link-action",
+  "welcome": "Bienvenue dans l'extension {{TARGET}}!"
+}

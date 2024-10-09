@@ -1,0 +1,23 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "635020a80ec1eccd4cd943c998e6c90a"
+name = "suavecito-partners-extensions"
+handle = "suavecito-partners-extensions"
+application_url = "https://shopify.dev/apps/default-app-home"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products, read_orders, customer_read_orders, customer_read_draft_orders, read_draft_orders"
+
+[auth]
+redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false

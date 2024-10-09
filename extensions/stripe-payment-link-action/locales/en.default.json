@@ -1,0 +1,5 @@
+{
+  "name": "Stripe Payment Link",
+  "welcome": "Welcome to the {{TARGET}} extension!",
+  "message": "Click the button below to view the Stripe payment."
+}
