@@ -14,7 +14,7 @@ Stripe Payment Link
 - Uses the metafield `suavecito.stripe_payment_intent` to generate a link to view the payment transaction in Stripe.
 
 <p align="left">
-  <img src="./screenshots/admin-action-stripe-payment-link.jpg" alt="Stripe Payment Link Admin Action" width="3000">
+  <img src="./screenshots/admin-action-stripe-payment-link.jpg" alt="Stripe Payment Link Admin Action" width="300">
 </p>
 
 <p align="left">
